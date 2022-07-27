@@ -1,28 +1,6 @@
-
-
-appversion: v1
+apiversion: v2
 name: abdul
-version: A SemVer 2 version
-  kubeVersion: 1.19
-  description: deploying a tomcat using helm charts
-type: deployment
-keywords:
-   - jdk 11,tomcat-9
-home: https://tomcat-9-devopsmannan-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com/
-dependencies:
-  - name: tomcat-9
-    version: 9.0.10
-	repository: fabric8/tomcat-9   (git url/docker hub)
-	condition: (if,if else,nested if..)
-	tags:
-	 - abdul-evoke
+version: 1.0.0
 maintainers:
   - name: abdul             
     email: amohammadabdul@evoketechnologies           
-    url: 
-icon:
-appVersion:
-deprecated:
-annotations:
- -key1: value1
-  key2: value2

@@ -17,8 +17,8 @@ spec:
       containers:
       - image: fabric8/tomcat-9:latest
         name: tomcat-9
-       initContainers:
-       - name: create-directories
-         image: busybox
-         command: ["/bin/sh", "-c", "mkdir -p /var/lib/bolt && mkdir -p /var/lib/bolt/trust && mkdir -p /var/lib/bolt/revoke"]
+       # initContainers:
+       # - name: create-directories
+       #   image: busybox
+       #   command: ["/bin/sh", "-c", "mkdir -p /var/lib/bolt && mkdir -p /var/lib/bolt/trust && mkdir -p /var/lib/bolt/revoke"]
        
